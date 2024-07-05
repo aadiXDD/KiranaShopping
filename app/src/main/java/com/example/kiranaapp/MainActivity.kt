@@ -21,8 +21,8 @@ class MainActivity : AppCompatActivity() ,KiranaRVadapter.KiranaItemClickInterfa
     lateinit var kiranaViewModel: KiranaViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        getSupportActionBar()?.hide()
         setContentView(R.layout.activity_main)
-
         itemsRV = findViewById(R.id.idRvItems)
 
         addFAB = findViewById(R.id.mainAddBtn)

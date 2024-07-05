@@ -29,7 +29,7 @@ class KiranaRVadapter
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): KiranaViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.kiranav_rv_item,parent,false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.kirana_member_item,parent,false)
         return KiranaViewHolder(view)
     }
 
